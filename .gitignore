@@ -1,0 +1,66 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+build/
+
+# .NET-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET-specific
+node_modules/
+bower_components/
+wwwroot/lib/
+
+# Resharper settings
+_ReSharper*/
+*.DotSettings.user
+
+# Rider settings
+.idea/
+
+# Backup & report files
+*.ncrunch*
+*_ReSharper.*
+*.DotSettings
+*.orig
+
+# Other file types to ignore
+*.log
+*.tlog
+*.dmp
+*.pdb
+*.cache
+*.ide
+*.ipch
+*.dbmdl
+*.jfm
+*.obj
+*.exe
+*.dll
+*.pyc
+*.class
+
+# Optional files that can be regenerated
+coverage.*
+_TestResults/
+output/
+codeCoverage/
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+desktop.ini
+
